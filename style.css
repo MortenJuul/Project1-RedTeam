@@ -4,7 +4,6 @@ body {
 }
 
 .navbar {
-  margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.75);
   height: 100px;
   border-radius: 0;
@@ -18,8 +17,6 @@ body {
   width: 300px;
 }
 
-.navbar li {
-}
 
 .navbar-nav a {
   font-weight: bold;
@@ -84,3 +81,151 @@ footer i {
 .footer-location p {
     font-weight: bold;
 }
+
+/* Main Content */
+h1 {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 3em;
+  color:white;
+  -webkit-text-stroke:1px #E4EAEA;
+}
+h2 {
+  font-family: 'Bodoni Moda', serif;
+  font-size:2em;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top:0.5em;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size:1em;
+  line-height: 2;
+}
+ul {
+  list-style: none;
+  padding:0;
+}
+li {
+  margin-bottom:0.5em;
+}
+/* Adult Programs */
+#adultprograms-title {
+  display:flex;
+  background-image:url("/Project 1/images/lap-swimming.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  height:25em;
+  align-items:center;
+  justify-content: center;
+}
+#adultprograms-content {
+  margin:0 15em 0 15em;
+}
+#adultprograms-locations p {
+  font-weight:800;
+  margin-bottom:0.5em;
+}
+/* Contact Us */
+#contact-title {
+    display:flex;
+  background-image:url("/Project 1/images/contact-hero.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  height:25em;
+  align-items:center;
+  justify-content: center;
+}
+#contact-content {
+  margin-left:20%;
+  margin-right:20%;
+}
+#contact-content p{
+  text-align:center;
+  margin:3em 10em 5em 10em;
+}
+#contact-info {
+  justify-content: center;
+}
+.contact-icon {
+  text-align:center;
+  margin-bottom:3em;
+}
+.contact-icon img {
+  width:100%;
+}
+/* About Us*/
+#about #aboutsplashes {
+  background-image: url(/images/about-us-hero.jpeg);
+  display:flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  height:15em;
+  align-items:center;
+  justify-content: center;
+}
+#about #aboutsplashes h2{
+  color:white;
+  font-weight: bold;
+  font-size:xx-large;
+}
+#about #ourphilosophy{
+  background-image: url(/images/about-our-philosophy-bg.jpeg);
+  display:block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  height:25em;
+  align-items:center;
+  justify-content: center;
+}
+#about #ourphilosophy h2{
+  font-family: 'Bodoni Moda', serif;
+  font-size:2em;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top:2em;
+}
+#about #ourphilosophy p{
+  font-family: 'Open Sans', sans-serif;
+  font-size:1em;
+  line-height: 2;
+  text-align: center;
+  font-weight: lighter;
+  margin: 0 auto;
+  width: 700px;
+}
+#about #wedogoodjob{
+  background-image: url(/images/about-we-do-a-pretty-good-job-bg.jpeg);
+  display:block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  height:25em;
+  align-items:center;
+  justify-content: center;
+}
+#about #wedogoodjob h2{
+  font-family: 'Bodoni Moda', serif;
+  font-size:2em;
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top:2em;
+}
+#about #wedogoodjob p{
+  font-family: 'Open Sans', sans-serif;
+  font-size:1em;
+  line-height: 2;
+  text-align: center;
+  font-weight: lighter;
+  margin: 0 auto;
+  width: 600px;
+}
+#about #wedogoodjob #hearaboutus{
+  font-family: 'Open Sans', sans-serif;
+  font-size:em;
+  text-align: center;
+  }
+
