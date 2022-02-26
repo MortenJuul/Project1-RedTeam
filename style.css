@@ -117,11 +117,6 @@ li {
   background-size: cover;
   background-position: center;;
   height:25em;
-  align-items:center;
-  justify-content: center;
-}
-#adultprograms-content {
-  margin:0 15em 0 15em;
 }
 #adultprograms-locations p {
   font-weight:800;
@@ -135,8 +130,6 @@ li {
   background-size: cover;
   background-position: center;;
   height:25em;
-  align-items:center;
-  justify-content: center;
 }
 #swimlessons-content p{
   margin-bottom:0;
@@ -149,8 +142,6 @@ li {
   background-size: cover;
   background-position: center;;
   height:25em;
-  align-items:center;
-  justify-content: center;
 }
 #contact-content p{
   text-align:center;
