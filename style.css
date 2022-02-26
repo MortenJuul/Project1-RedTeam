@@ -24,7 +24,7 @@ body {
 }
 
 footer {
-  background-image: url("./asstes/images/footer-bg.jpeg");
+  background-image: url("/asstes/images/footer-bg.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,7 +111,7 @@ li {
 /* Adult Programs */
 #adultprograms-title {
   display:flex;
-  background-image:url("/Project 1/images/lap-swimming.jpeg") ;
+  background-image:url("assets/images/lap-swimming.jpeg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;;
@@ -129,7 +129,7 @@ li {
 /* Contact Us */
 #contact-title {
     display:flex;
-  background-image:url("/Project 1/images/contact-hero.jpeg") ;
+  background-image:url("assets/images/contact-hero.jpeg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;;
@@ -157,7 +157,7 @@ li {
 }
 /* About Us*/
 #about #aboutsplashes {
-  background-image: url(/images/about-us-hero.jpeg);
+  background-image: url(assets/images/about-us-hero.jpeg);
   display:flex;
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,7 +172,7 @@ li {
   font-size:xx-large;
 }
 #about #ourphilosophy{
-  background-image: url(/images/about-our-philosophy-bg.jpeg);
+  background-image: url(assets/images/about-our-philosophy-bg.jpeg);
   display:block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -198,7 +198,7 @@ li {
   width: 700px;
 }
 #about #wedogoodjob{
-  background-image: url(/images/about-we-do-a-pretty-good-job-bg.jpeg);
+  background-image: url(assets/images/about-we-do-a-pretty-good-job-bg.jpeg);
   display:block;
   background-repeat: no-repeat;
   background-size: cover;
