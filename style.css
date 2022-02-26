@@ -127,11 +127,12 @@ li {
 #index-content img {
   margin-top:1em;
 }
-#index-buttons .btn {
-  padding:2em;
+#infovideo, #swimvideo {
+  padding:1em;
   text-align:center;
   width:20em;
-  background-color:yellow;
+  color:#03B1F4;
+  font-weight: bold;
 }
 #hands-on {
   background-image: url("/assets/images/home-hands-on-teaching.jpeg");
