@@ -134,6 +134,16 @@ li {
 #swimlessons-content p{
   margin-bottom:0;
 }
+/* Swim Programs */
+#swimprograms-title {
+  display:flex;
+  background-image:url("Project 1/images/which-lesson-is-best.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  height:25em;
+}
+
 /* Contact Us */
 #contact-title {
     display:flex;
