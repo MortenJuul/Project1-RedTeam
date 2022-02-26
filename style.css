@@ -126,6 +126,17 @@ li {
   font-weight:800;
   margin-bottom:0.5em;
 }
+/* Swim Lessons */
+#swimlessons-title {
+  display:flex;
+  background-image:url("Project 1/images/which-lesson-is-best.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  height:25em;
+  align-items:center;
+  justify-content: center;
+}
 /* Contact Us */
 #contact-title {
     display:flex;
@@ -137,13 +148,8 @@ li {
   align-items:center;
   justify-content: center;
 }
-#contact-content {
-  margin-left:20%;
-  margin-right:20%;
-}
 #contact-content p{
   text-align:center;
-  margin:3em 10em 5em 10em;
 }
 #contact-info {
   justify-content: center;
