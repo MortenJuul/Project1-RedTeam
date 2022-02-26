@@ -97,6 +97,12 @@ h2 {
   padding-bottom: 1em;
   padding-top:0.5em;
 }
+h3 {
+  font-family: 'Bodoni Moda', serif;
+  padding-bottom: 0.5em;
+  padding-top:0.5em;
+   font-size:1.5em;
+}
 p {
   font-family: 'Open Sans', sans-serif;
   font-size:1em;
@@ -109,10 +115,103 @@ ul {
 li {
   margin-bottom:0.5em;
 }
+/* Index */
+#index-title {
+   display:flex;
+  background-image:url("/assets/images/home.jpeg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  height:35em;
+}
+#index-content img {
+  margin-top:1em;
+}
+#index-buttons .btn {
+  padding:2em;
+  text-align:center;
+  width:20em;
+  background-color:yellow;
+}
+#hands-on {
+  background-image: url("/assets/images/home-hands-on-teaching.jpeg");
+   display:flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top:1em;
+}
+#hands-on ul {
+  list-style: initial;
+  margin-left:2em;
+}
+#hands-on ul li {
+  margin:0;
+}
+#hands-on ul li p{
+margin-bottom:0;
+}
+#hands-on ul li p span {
+  text-decoration: underline;
+}
+#registernow {
+  display:flex;
+  background-color:#03B1F4;
+  border:none;
+  padding:0.5em 1em 0.5em 1em;
+}
+#school-locations {
+  background-image: url("/assets/images/home-our-locations-bg.jpeg");
+   display:flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
+  text-align:center;
+}
+#school-locations h1 {
+  margin-top:2em;
+}
+#school-locations h2 {
+  color:white;
+}
+#school-locations p {
+  color:white;
+  margin-bottom:3em;
+}
+#locationmap {
+  background-image: url("/assets/images/home-our-locations-map.png");
+   display:flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: space-between;
+  padding-right:0;
+}
+#findlocation {
+  background-color:#03B1F4;
+  border:none;
+  padding:0.5em 1em 0.5em 1em;
+  margin-bottom:6em;
+}
+#awardswon h2{
+font-size:3em;
+}
+#award-info {
+  margin-left:20%;
+  margin-right:20%;
+}
+.award-icon {
+  text-align:center;
+  margin-bottom:3em;
+}
+.award-icon img {
+  width:70%;
+}
 /* Adult Programs */
 #adultprograms-title {
   display:flex;
-  background-image:url("/Project 1/images/lap-swimming.jpeg") ;
+  background-image:url("/assets/images/lap-swimming.jpeg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;;
@@ -125,7 +224,7 @@ li {
 /* Swim Lessons */
 #swimlessons-title {
   display:flex;
-  background-image:url("Project 1/images/which-lesson-is-best.jpeg") ;
+  background-image:url("assets/images/which-lesson-is-best.jpeg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;;
@@ -137,7 +236,7 @@ li {
 /* Swim Programs */
 #swimprograms-title {
   display:flex;
-  background-image:url("Project 1/images/which-lesson-is-best.jpeg") ;
+  background-image:url("assets/images/which-lesson-is-best.jpeg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;;
@@ -147,7 +246,7 @@ li {
 /* Contact Us */
 #contact-title {
     display:flex;
-  background-image:url("/Project 1/images/contact-hero.jpeg") ;
+  background-image:url("/assets/images/contact-hero.jpeg") ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;;
