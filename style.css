@@ -228,3 +228,17 @@ li {
   font-size:em;
   text-align: center;
   }
+#awardswon h2{
+font-size:3em;
+}
+#award-info {
+  margin-left:20%;
+  margin-right:20%;
+}
+.award-icon {
+  text-align:center;
+  margin-bottom:3em;
+}
+.award-icon img {
+  width:70%;
+}
