@@ -1,6 +1,5 @@
 body {
-  /* padding-top: 20px; */
-  padding-bottom: 20px;
+
 }
 
 .navbar {
@@ -44,7 +43,6 @@ body {
   margin-left: 10% !important;
   padding: 0 2em 2em 2em;
 }
-
 
 
 /* LOGIN */
@@ -295,14 +293,30 @@ font-size:3em;
 
 /* Contact Us */
 #contact-title {
-    display:flex;
-  background-image:url("/assets/images/contact-hero.jpeg") ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;;
-  height:25em;
-  align-items:center;
-  justify-content: center;
+  display:flex;
+background-image:url("/assets/images/contact-hero.jpeg") ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;;
+height:25em;
+}
+#contact-content p{
+text-align:center;
+}
+#contact-info {
+justify-content: center;
+}
+.contact-icon {
+text-align:center;
+margin-bottom:3em;
+}
+.contact-icon img {
+width:100%;
+}
+#about, #swimprograms-content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 #about #wedogoodjob h2{
   font-family: 'Bodoni Moda', serif;
