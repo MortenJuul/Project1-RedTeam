@@ -73,7 +73,7 @@ body {
 
 /* FOOTER */
 footer {
-  background-image: url("./assets/images/footer-bg.jpeg");
+  background-image: url("/asstes/images/footer-bg.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -301,17 +301,41 @@ font-size:3em;
   background-size: cover;
   background-position: center;;
   height:25em;
-}
-#contact-content p{
-  text-align:center;
-}
-#contact-info {
+  align-items:center;
   justify-content: center;
 }
-.contact-icon {
+#about #wedogoodjob h2{
+  font-family: 'Bodoni Moda', serif;
+  font-size:2em;
   text-align: center;
-  margin-bottom: 3em;
+  padding-bottom: 1em;
+  padding-top:2em;
 }
-.contact-icon img {
-  width: 100%;
+#about #wedogoodjob p{
+  font-family: 'Open Sans', sans-serif;
+  font-size:1em;
+  line-height: 2;
+  text-align: center;
+  font-weight: lighter;
+  margin: 0 auto;
+  width: 600px;
+}
+#about #wedogoodjob #hearaboutus{
+  font-family: 'Open Sans', sans-serif;
+  font-size:em;
+  text-align: center;
+  }
+#awardswon h2{
+font-size:3em;
+}
+#award-info {
+  margin-left:20%;
+  margin-right:20%;
+}
+.award-icon {
+  text-align:center;
+  margin-bottom:3em;
+}
+.award-icon img {
+  width:70%;
 }
